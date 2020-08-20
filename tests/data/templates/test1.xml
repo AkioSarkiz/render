@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<body>
+    <theme.card>
+        <theme.card-header>{{ title }}</theme.card-header>
+        <theme.card-body>
+            <theme.card-text>{{ content }}</theme.card-text>
+        </theme.card-body>
+        <theme.card-action>
+            <theme.button color="primary">{{ action1 }}</theme.button>
+        </theme.card-action>
+    </theme.card>
+</body>

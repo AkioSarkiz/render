@@ -1,0 +1,30 @@
+{
+  "name": "akiosarkiz/render",
+  "license": "MIT",
+  "version": "0.1",
+  "authors": [
+    {
+      "name": "akiosarkiz",
+      "email": "akiosarkiz@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Render\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests"
+    }
+  },
+  "require": {
+    "php": "^7.2",
+    "ext-simplexml": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5",
+    "symfony/var-dumper": "^5.1"
+  }
+}
